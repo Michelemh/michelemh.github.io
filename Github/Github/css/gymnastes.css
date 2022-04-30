@@ -1,0 +1,136 @@
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #CDCDCD;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.sidenav p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #383838;
+  display: block;
+}
+
+#content {
+  list-style: none;
+  font-size: 18px;
+  font-family: 'Lucida Handwriting';
+}
+
+#content li {
+  display: inline;
+  margin: 0 auto;
+}
+
+#content li a:link {
+  display: inline-block;
+  width: 110px;
+  height: 85px;
+  line-height: 30px;
+  text-align: justify;
+  text-decoration: none;
+  background-color: #DDC7A0;
+  color: black;
+  padding: 30px;
+  margin: 20px;
+  cursor: crosshair;
+}
+
+#content li a:visited {
+  color: #1E3F66;
+}
+
+#content li a:hover {
+  color: blue;
+}
+
+.debut {
+  background-image: url('https://image.shutterstock.com/image-photo/clean-grand-combat-arena-bright-260nw-534459844.jpg')
+}
+
+#menu {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    transition: .10s background;
+}
+
+main {
+    display: block;
+}
+
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(102,51,0);
+  text-align: center;
+  font-family: monospace, "Lucida Console";
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 85%;
+}
+
+h4,h3 {
+  float: right;
+  width: 85%;
+}
+
+.font {
+  font-family: "papyrus";
+}
+
+.exemples {
+  float: right;
+  width: 85%;
+  font-family: "Papyrus";
+  list-style-type: circle;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline overline;
+  font-size: 40px;
+  font-family: monospace, "Lucida Console";
+  color: #8B0000;
+  width: 85%;
+}
+
+p {
+  font-family: georgia;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+img {
+  position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
